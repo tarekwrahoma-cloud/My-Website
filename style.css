@@ -65,40 +65,36 @@ nav .logo h2{
 li:hover{
 color: skyblue   ;    
 }
-.abc{
-    float: left;
-    gap: 100px;
-    width : 100%;
+.abc {
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-bottom: 20%;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 40px;
+    width: 30%;
 }
 
-.abc .teor{
-margin-left: 3%;    
-margin-right: 8%;
-font-family: "Edu VIC WA NT Hand", cursive;
+.abc img {
+    width: 70%;
+    border-radius: 10px;
+    display: block;
+    margin-left: 20%;
 }
-main .abc .fix pre {
-    font-size: larger;
-font-family: "Edu VIC WA NT Hand", cursive;
-}
-.abc img
-{
-    margin: 30%;
-    width: 100%;
-}
-.fix-image:hover{
-    transform: scale(1.1);
-}
+
+
 .bb ul {
     display: flex;
     justify-content: space-evenly;
     position: absolute;
-    right: 40%;
+    right: 30%;
+top: 180%;
     list-style: none; 
     gap: 40px;
 
+}
+ img:hover{
+    transform: scale(1.1);
 }
 .bb ul li {
     background-color: skyblue;
@@ -202,3 +198,56 @@ font-family: "Edu VIC WA NT Hand", cursive;
 background-color: white;
 color: silver;
 }
+ 
+
+ @media screen and (max-width : 1200px) {
+    footer .log .item {
+         width: 25%;
+     }
+          main .abc .fix-image {
+              width: 100%;
+          }
+                  p {
+                      width: 100%;
+                  }
+     
+ }
+
+ @media screen and (max-width : 992px) {
+    footer .log .item {
+         width: 33.33%;
+     }
+         main .abc .fix-image {
+             width: 25%;
+         }
+                 p {
+                     width: 75%;
+                 }
+ }
+
+ @media screen and (max-width : 768px) {
+    footer .log .item {
+         width: 50%;
+     }
+         main .abc .fix-image {
+             width: 75%;
+         }
+                 p {
+                     width: 50%;
+                 }
+ }
+
+ @media screen and (max-width : 600px) {
+    footer .log .item {
+         width: 100%;
+     }
+     main .abc{
+        width: 100%;
+     }
+     main .abc .fix-image{
+        width: 100%;
+     }
+     p{
+        width: 25%;
+     }
+ }
