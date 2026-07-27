@@ -1,0 +1,316 @@
+   * {
+       margin: 0%;
+       padding: 0%;
+   }
+
+   * {
+       box-sizing: border-box;
+   }
+
+   header {
+       width: 100%;
+       height: 100vh;
+       background-image: url(aseets/background.jpg);
+       background-position: center;
+       background-size: cover;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       font-family: "Edu VIC WA NT Hand", cursive;
+       font-size: 28px;
+   }
+
+   header .content h1 {
+       color: skyblue;
+
+   }
+
+   nav {
+       display: flex;
+       justify-content: space-between;
+       position: fixed;
+       right: 0%;
+       left: 0%;
+       top: 0%;
+       bottom: 94%;
+       color: white;
+       font-family: "Edu VIC WA NT Hand", cursive;
+       background-color: rgba(1, 1, 1, 0.5);
+
+
+   }
+
+
+   nav .buttoms {
+       width: 50%;
+   }
+
+   nav .buttoms ul {
+       display: flex;
+       background-color: transparent;
+       justify-content: space-evenly;
+       list-style: none;
+
+   }
+
+   nav .buttoms ul li {
+       font-size: larger;
+       text-align: center;
+       transition-duration: 1s;
+
+   }
+
+   nav .logo h2 {
+       color: skyblue;
+       position: absolute;
+       left: 2%;
+   }
+
+   li:hover {
+       color: skyblue;
+   }
+
+   .abc {
+    padding-top:100px ;
+       width: 100%;
+       display: flex;
+       flex-wrap:wrap ;
+       align-items: center;
+       justify-content: space-evenly;
+   }
+
+   .abc .teor {
+      
+       width: 60%;
+       font-family: "Edu VIC WA NT Hand", cursive;
+   }
+
+   main .abc .fix table {
+       font-size: larger;
+       width: 100%;
+       font-family: "Edu VIC WA NT Hand", cursive;
+   }
+
+   .abc img {
+       width: 100%;
+   }
+   .fix-image{
+    width: 30%;
+   }
+
+   .fix-image:hover {
+       transform: scale(1.1);
+   }
+
+   .bb ul {
+       display: flex;
+       justify-content: space-evenly;
+       position: absolute;
+       right: 40%;
+       list-style: none;
+       gap: 40px;
+
+   }
+
+   .bb ul li {
+       background-color: skyblue;
+       color: #ffffff;
+       transition-duration: 1s;
+   }
+
+   .bb ul li:hover {
+       color: black;
+   }
+
+   clear-fix {
+       clear: both;
+   }
+
+   .word {
+       text-align: center;
+   }
+
+   .word h1 {
+       display: inline-block;
+       padding: 5px 3px;
+       width: 100%;
+       color: black;
+       background-color: silver;
+       font-family: "Edu VIC WA NT Hand", cursive;
+   }
+
+    .log {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       padding: 40px 20px;
+   }
+
+   .item {
+       width: 22%;
+       text-align: center;
+       background: #f9f9f9;
+       padding: 20px;
+       border-radius: 10px;
+       box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        font-size: 1.3rem;
+            margin-bottom: 10px;
+                font-size: 0.95rem;
+                    color: black;
+                    line-height: 1.5;
+                    transition-duration: 1s;
+                    margin-right: 20px;
+                    font-family: "Edu VIC WA NT Hand", cursive;
+   }
+
+   .item img {
+       width: 100%;
+       height: 180px;
+       object-fit: cover;
+       border-radius: 8px;
+       margin-bottom: 15px;
+   }
+   footer .log .item:hover {
+       transform: scale(1.1);
+       border: solid, 0px;
+       background-color: silver;
+       color: white;
+   }
+
+
+
+   .links {
+       text-align: center;
+       background-color: silver;
+       width: 100%;
+       padding: 20px 0;
+   }
+
+   .links h2 {
+       margin-bottom: 15px;
+       font-family: "Edu VIC WA NT Hand", cursive;
+   }
+
+   .links .but {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 20px;
+       list-style: none;
+       padding: 0;
+       margin: 0;
+   }
+
+   .links .but a {
+       text-decoration: none;
+       color: white;
+       background-color: transparent;
+       padding: 8px 18px;
+       border-radius: 25px;
+       border: none;
+       transition: 1s;
+       font-size: 30px;
+       font-family: "Edu VIC WA NT Hand", cursive;
+   }
+
+   .links .but a:hover {
+       background-color: white;
+       color: silver;
+   }
+@media screen and (max-width : 1200px) {
+    footer .log .item{
+        width: 16.66%;
+    }
+    .links{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    .abc
+    {
+        width: 100%;
+    }
+    .abc img{
+        padding-top: 100px;
+        width: 100% ;
+        margin: 0%;
+    }
+}
+
+@media screen and (max-width : 992px) {
+    footer .log .item {
+        width: 25%;
+    }
+    .links {
+        width: 100%;
+    }
+    header {
+    width: 100%;
+    }
+                 .abc {
+                     flex-direction: column;
+                     align-items: center;
+                     text-align: center;
+                 }
+        
+                  .abc img {
+                    padding-top: 100px;
+                     width: 100%;
+                     margin: 0 20px;
+                    text-align: center;
+                 } 
+       
+}
+
+
+
+@media screen and (max-width : 768px) {
+    footer .log .item {
+        width: 50%;
+    }
+    .links {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+                 .abc {
+                     flex-direction: column;
+                     align-items: center;
+                     text-align: center;
+                 }
+        
+                 .abc img {
+                    padding-top: 100px;
+                     width:100% ;
+                     margin: 0%;
+                    text-align: center;
+                 }
+
+}
+
+@media screen and (max-width : 600px) {
+    footer .log .item {
+        width: 100%;
+    }
+    .links {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+
+                 .abc img {
+                    padding-top:100px ;
+                     width: 100%;
+                     text-align: center;
+                 }
+        
+                 .abc .teor {
+                     width: 95%;
+                 }
+                 
+}
+   
